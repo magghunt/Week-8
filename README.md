@@ -22,7 +22,7 @@ Vulnerability #1: SQL Injection -
 Video walkthrough -
 <img src="XSS_Blue.gif" width="800">
 
-Vulnerability #2: __________________
+Vulnerability #2: Session ID Hacking
 
 
 ## Green
