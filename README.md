@@ -55,7 +55,7 @@ Vulnerability #2: CSRF Attack -
   By inserting an html form into the feedback response form, you can trick the admin into opening that form and allowing it to make changes to the site. For this attack I created an html file that changes "Irene Boling" to "Ireeeeeene BOWLING". I submited the path to this form in a feedback form and when someone logged in as admin accessed this html file, it was able to make changes to that salesperson's information. 
   
 Video walkthrough - 
-<img src = Red_CSRF" width = "800">
+<img src = "Red_CSRF" width = "800">
 
 
 ## Notes
