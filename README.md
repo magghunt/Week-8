@@ -22,8 +22,11 @@ Vulnerability #1: SQL Injection -
 Video walkthrough -
 <img src="XSS_Blue.gif" width="800">
 
-Vulnerability #2: Session ID Hacking
-
+Vulnerability #2: Session ID Hacking - 
+  By using a session ID tool to change the session ID of the site when you are not logged in to the session ID of the site when you are logged in, you can essentially go from being logged out to being logged in without every entering a username and password. I logged in on chrome and then using the session ID tool provided by codepath changed the session ID of the site when I was logged out on internet explorer to the same ID as the logged in chrome page. Then after refreshing I was able to access all of the restricted information.
+  
+Video walkthrough - 
+<img src="Blue_Session_ID.gif" width = "800">
 
 ## Green
 
@@ -48,7 +51,7 @@ Vulnerability #1: Insecure Direct Object Reference -
 Video walkthrough - 
 <img src = "IDOR_Red.gif" width = "800">
 
-Vulnerability #2: __________________
+Vulnerability #2: CSRF Attack
 
 
 ## Notes
